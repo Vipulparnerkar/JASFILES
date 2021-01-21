@@ -1,0 +1,43 @@
+
+*{
+   margin:0; 
+   
+}
+
+
+.fora{
+    color:black;
+    text-decoration: none;
+}
+/* FLEXBOX CODING */
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.box1{
+    color:azure;
+    background-color: blue;
+    width:22%;
+    padding:20px;
+}
+/* FOR RESPONSIVENESS */
+@media (max-width:768px){
+    .parent{
+      
+        flex-direction: column;
+        
+        padding: 20px;;
+       
+    }
+    .box1{
+        margin-top: 20px;
+    }
+
+
+    
+
+}
